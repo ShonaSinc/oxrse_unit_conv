@@ -19,13 +19,14 @@ mile = Unit(name='mile', abbr='mile', si=meter, to_si_fun=lambda n: n * 1_609.34
 # meter_cu
 
 # kilogram
-
 pound = Unit(name='pound', abbr='lb', si=kilogram, to_si_fun=lambda n: n * 0.4535924)
 lb = pound
 
 # ampere
 
 # kelvin
+celsius = Unit(name='celsius', abbr='C', si=kelvin, to_si_fun=lambda n: n + 273.15)
+C = celsius
 
 # mole
 
